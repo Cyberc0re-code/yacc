@@ -1,0 +1,4 @@
+Yacc -d ya.y
+Lex la.l
+Gcc lex.yy.c y.tab.c -ll -lm
+./a.out
